@@ -1,0 +1,77 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  border-radius: 16px;
+  border: none;
+  padding: 6px 16px;
+  outline: none;
+}
+
+button {
+  border-radius: 16px;
+  border: none;
+  padding: 4px 16px;
+  transition: all 0.2s;
+}
+
+button:hover {
+  background-color: #ff7fff;
+  color: #fff;
+  cursor:pointer;
+}
+
+.input-area {
+  background-color: #c1ffff;
+  width: 400px;
+  height: 5s0px;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.incomplete-area {
+  background-color: #c6ffe2;
+  width: 400px;
+  min-height: 200px;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
+
+}
+
+.complete-area {
+  background-color: #ffffe0;
+  width: 400px;
+  min-height: 200px;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
+}
+
+.title {
+  text-align: center;
+  font-weight: bold;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.list-row {
+  display: flex;
+  align-items: center;
+  padding-bottom: 4px;
+}
+
+.list-row p {
+  margin-right: 8px;
+}
+
+li {
+  list-style: none;
+}
+
